@@ -1,0 +1,69 @@
+
+aplicação Single Page Application 
+Projeto XYZ
+ANGULAR 15+
+CSS com framework = Semantic UI, Pure, Miligram, UIKit, HTML5 Boilerplate, Onsen UI
+
+O Projeto XYZ tem a missão de fornecer uma página de produtos (Market place) para que os engenheiros (desenvolvedores de Produtos Digitais)
+da Companhia possam hospedar seus produtos para que outros engenheiros tenham acesso de forma rápida e simplificada.
+Para este teste você deverá implementar uma aplicação que possibilita consultar os dados desses produtos e hospedar esses produtos
+
+
+estilo: https://landscape.cncf.io/ 
+
+
+1 API
+	- Método de autenticação
+	- Listar Produtos
+	- Exibir dados de produtos
+		1. Nome do Produto;
+		2. Breve Descrição;
+		3. Descrição Completa do produto
+		4. Público-alvo;
+		5. Maturidade do Produto: Aposentado, em Utilização, evoluindo, estável;
+		6. Quantidade de usuários ativos;
+		7. Documentação de Consumo.
+		8. Imagens
+ 
+	- Exibir em destaque a quantidade de usuários que assinaram o produto ou algum outro dado que considere relevante
+	- Update dados
+	- Post imagens
+	- Clean Code
+	- Solid 
+	- Arquitetura
+
+2 Deploy
+	Explicação de como rodar localmente e como seria possível realizar o deploy (indicar qual a infra-estrututura seria utilizada, Cloudable ou Onprem);
+	
+3 Front
+	- Dados requisitados com axios ou fetch
+	- Componentizar adequadamente a solução
+	- Layout responsivo levando em consideração os principais tamanhos de tela
+	- Explicar o porquê da escolha do framework CSS
+	- Usar Lazy Loading Routes
+	- O artefato final deverá ser empacotado em container com todos os componentes necessários, como bibliotecas, frameworks e outras dependências, para que fiquem isolados em seu próprio "container";
+
+	- Tela inicial 
+		1. Implementar método de autenticação;
+		2. Armazenar os dados do usuário (Nome, entre outros);
+		3. Listar Produtos, esses produtos devem ser apresentados em cards, contendo imagem e informações sobre cada produto;
+		4. Paginar o resultado da consulta de forma a exibir pelo menos 10 produtos vez;
+		5. Possibilitar pesquisas por produtos ou família de produto com as informações de cada produto.
+	
+	- Tela de Detalhamento do Produto
+		a) Na tela principal ao clicar em um produto a aplicação deverá redirecionar para uma tela de detalhamento onde os dados do produto serão exibidos;
+		b) Estilize a tela para que seja dado destaque ao nome do Produto e a descrição do produto;
+		c) Exibir em destaque a quantidade de usuários que assinaram o produto ou algum outro dado que considere relevante;
+		d) Possibilitar o compartilhamento dessa informação com mídias sociais como Facebook, Instagram, Whatsapp e outras que julgar oportuno.
+		e) Desenvolver API para cadastrar os dados de produtos, e deve conter os seguintes dados: 
+			1. Nome do Produto;
+			2. Breve Descrição;
+			3. Descrição Completa do produto
+			4. Público-alvo;
+			5. Maturidade do Produto: Aposentado, em Utilização, evoluindo, estável;
+			6. Quantidade de usuários ativos;
+			7. Documentação de Consumo.
+
+	- Tela de Inclusão de Informações do Produto
+		Na tela de detalhamento do Produto deverá ser incluído um botão para que o engenheiro possa enviar informações sobre a produto;
+		Nesta tela o engenheiro responsável pelo poderá fazer o envio de imagens do produto;
